@@ -1,0 +1,1 @@
+binomial n k | k==0 = 1 | n==k = 1 | k > 0, n/=k = binomial (n-1) (k-1) + binomial (n-1) k
